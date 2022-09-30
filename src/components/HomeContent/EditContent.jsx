@@ -24,7 +24,7 @@ const EditContent = () => {
       </div>
       <p className="text-lg mt-[60px]">Content</p>
       <div className="flex w-[910px] h-[151px] rounded-xl bg-white mt-2 items-center">
-        <p className="ml-3">
+        <p className="ml-3 leading-8">
           삶은 관계이자 소통, 행복은 멀리 있지 않고 내 옆의 사람들과 마음을
           나누는 데 있다.
         </p>

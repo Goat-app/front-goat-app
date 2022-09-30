@@ -24,7 +24,7 @@ const WriteContent = () => {
       </div>
       <p className="text-lg mt-[60px]">Content</p>
       <div className="flex w-[910px] h-[151px] rounded-xl bg-white mt-2 items-center">
-        <p className="ml-3 text-gray-400">
+        <p className="ml-3 text-gray-400 leading-8">
           감명 깊었던 내용이나 대사를 자유롭게 작성해주세요.
         </p>
       </div>

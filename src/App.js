@@ -7,6 +7,7 @@ import ProfileContent from './components/MainContent/ProfileContent'
 import Write from './routes/Write'
 import Detail from './routes/Detail'
 import Edit from './routes/Edit'
+import SignUp from './routes/SignUp'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/write" element={<Write />}></Route>
             <Route path="/detail" element={<Detail />}></Route>
             <Route path="/edit" element={<Edit />}></Route>
+            <Route path="/signup" element={<SignUp />}></Route>
           </Routes>
         </div>
         <Footer />
