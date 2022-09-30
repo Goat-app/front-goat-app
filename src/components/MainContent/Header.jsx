@@ -1,11 +1,9 @@
 import React from 'react'
-import bg from '../../goat-img/unknown.png'
 import { GoSearch } from 'react-icons/go'
 
 const Header = () => {
   return (
-    <div className="relative w-full h-[350px] overflow-hidden">
-      <img src={bg} alt="" className="w-full" />
+    <div className="relative w-full h-[350px] overflow-hidden bg-[url(../../goat-img/header2.jpg)] bg-cover bg-no-repeat">
       <div className="flex justify-between absolute top-0 left-0 w-full py-6">
         <h1>
           LOGO

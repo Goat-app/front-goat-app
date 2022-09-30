@@ -4,7 +4,7 @@ const DetailContent = () => {
   return (
     <div className=" w-[910px] h-[1187px] ml-[370px] flex-col flex-wrap relative ">
       <div className="w-[816px] h-[320px] rounded-xl bg-gray-200 absolute -mt-48 left-[50%] translate-x-[-50%]"></div>
-      <div className="flex w-[910px] h-[440px] rounded-xl bg-[#FCE4EA] mt-[450px]">
+      <div className="flex w-[910px] h-[440px] rounded-xl bg-[#FCE4EA] mt-[380px]">
         <div className="w-[816px] h-72 mx-auto mb-0 mt-auto">
           <b className="text-lg">불편한 편의점</b>
           <p className="text-base mt-5">김호연</p>

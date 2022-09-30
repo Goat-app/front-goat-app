@@ -1,14 +1,11 @@
 import React from 'react'
-import bg from '../../goat-img/profile.PNG'
 import { BsChat, BsHeart } from 'react-icons/bs'
 
 const HomeContent = () => {
   return (
     <div className="flex w-full h-[1187px] ml-[370px] flex-col-1 flex-wrap">
       <div className="flex justify-between w-[910px] h-[228px] rounded-xl bg-white mt-[50px] p-[30px]">
-        <div className="w-[100px] h-[100px] bg-red-200 rounded-full">
-          <img src={bg} alt="" className="w-full rounded-full" />
-        </div>
+        <div className="w-[100px] h-[100px] rounded-full bg-[url(../../goat-img/profile.jpg)] bg-cover bg-no-repeat"></div>
         <div>
           <div className="flex w-full h-[30px]">
             <b className="flex mr-10">book title</b>
@@ -35,9 +32,7 @@ const HomeContent = () => {
       </div>
 
       <div className="flex justify-between w-[910px] h-[228px] rounded-xl bg-white mt-[50px] p-[30px]">
-        <div className="w-[100px] h-[100px] bg-red-200 rounded-full">
-          <img src={bg} alt="" className="w-full rounded-full" />
-        </div>
+        <div className="w-[100px] h-[100px] rounded-full bg-[url(../../goat-img/profile.jpg)] bg-cover bg-no-repeat"></div>
         <div>
           <div className="flex w-full h-[30px]">
             <b className="flex mr-10">book title</b>
@@ -64,9 +59,7 @@ const HomeContent = () => {
       </div>
 
       <div className="flex justify-between w-[910px] h-[228px] rounded-xl bg-white mt-[50px] p-[30px]">
-        <div className="w-[100px] h-[100px] bg-red-200 rounded-full">
-          <img src={bg} alt="" className="w-full rounded-full" />
-        </div>
+        <div className="w-[100px] h-[100px] rounded-full bg-[url(../../goat-img/profile.jpg)] bg-cover bg-no-repeat"></div>
         <div>
           <div className="flex w-full h-[30px]">
             <b className="flex mr-10">book title</b>
@@ -93,9 +86,7 @@ const HomeContent = () => {
       </div>
 
       <div className="flex justify-between w-[910px] h-[228px] rounded-xl bg-white mt-[50px] p-[30px]">
-        <div className="w-[100px] h-[100px] bg-red-200 rounded-full">
-          <img src={bg} alt="" className="w-full rounded-full" />
-        </div>
+        <div className="w-[100px] h-[100px] rounded-full bg-[url(../../goat-img/profile.jpg)] bg-cover bg-no-repeat"></div>
         <div>
           <div className="flex w-full h-[30px]">
             <b className="flex mr-10">book title</b>

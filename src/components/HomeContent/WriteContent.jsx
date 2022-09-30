@@ -13,7 +13,7 @@ const WriteContent = () => {
           </p>
         </div>
       </div>
-      <div className="flex w-[910px] h-[355px] rounded-xl bg-gray-200 mt-[26px]"></div>
+      <div className="flex w-[910px] h-[355px] rounded-xl mt-[26px] bg-[url(../../goat-img/flower.jpg)] bg-cover bg-no-repeat bg-[center_top_-200px]"></div>
       <p className="text-lg mt-[80px]">Title</p>
       <div className="flex w-[910px] h-[61px] rounded-xl bg-white mt-2 items-center">
         <p className="ml-3 text-gray-400">제목을 작성해주세요.</p>

@@ -1,13 +1,10 @@
 import React from 'react'
-import bg from '../../goat-img/profile.PNG'
 import { BsFillGeoAltFill } from 'react-icons/bs'
 
 const ProfileContent = () => {
   return (
     <div className="flex flex-col space-y-4 text-center w-[320px] h-[520px] rounded-xl absolute top-[-175px] mx-auto bg-white">
-      <div className="mx-auto w-[100px] h-[100px] bg-gray-400 rounded-full mt-[40px]">
-        <img src={bg} alt="" className="w-full rounded-full" />
-      </div>
+      <div className="mx-auto w-[100px] h-[100px] rounded-full mt-[40px] bg-[url(../../goat-img/profile.jpg)] bg-cover bg-no-repeat"></div>
       <b className="w-[300px] h-[24px] text-xl text-black">Kimnana</b>
       <p className="w-[300px] h-[24px] text-lg text-gray-400">@nickname</p>
       <p className="flex justify-center w-[300px] h-[24px] text-xl text-black">
