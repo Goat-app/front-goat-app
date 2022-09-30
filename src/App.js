@@ -8,6 +8,7 @@ import Write from './routes/Write'
 import Detail from './routes/Detail'
 import Edit from './routes/Edit'
 import SignUp from './routes/SignUp'
+import ProfileEdit from './routes/ProfileEdit'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/detail" element={<Detail />}></Route>
             <Route path="/edit" element={<Edit />}></Route>
             <Route path="/signup" element={<SignUp />}></Route>
+            <Route path="/profileedit" element={<ProfileEdit />}></Route>
           </Routes>
         </div>
         <Footer />
